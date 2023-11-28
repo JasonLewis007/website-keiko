@@ -8,7 +8,7 @@ import './Home.css';
 const Home = () => {
   const sliderSettings = {
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -18,7 +18,7 @@ const Home = () => {
     <div className="home">
       <Slider {...sliderSettings}>
         <div>
-          <img src="public/images/image1.jpg" alt="Slide 1" />
+          <img src="/images/image1.jpg" alt="Slide 1" />
         </div>
         <div>
           <img src="/images/image2.jpg" alt="Slide 2" />
