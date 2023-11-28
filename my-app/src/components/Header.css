@@ -1,0 +1,39 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* Add your background color */
+  }
+  
+  .logo-container {
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .logo {
+    max-height: 50px; /* Adjust max height as needed */
+  }
+  
+  .company-info h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 15px; /* Adjust margin between items as needed */
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    font-weight: bold;
+  }
+  
