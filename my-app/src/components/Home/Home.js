@@ -18,10 +18,10 @@ const Home = () => {
     <div className="home">
       <Slider {...sliderSettings}>
         <div>
-          <img src="image1.jpg" alt="Slide 1" />
+          <img src="/images/image1.jpg" alt="Slide 1" />
         </div>
         <div>
-          <img src="image2.jpg" alt="Slide 2" />
+          <img src="/images/image2.jpg" alt="Slide 2" />
         </div>
       </Slider>
     </div>
@@ -29,3 +29,4 @@ const Home = () => {
 };
 
 export default Home;
+
