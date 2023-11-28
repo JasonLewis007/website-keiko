@@ -18,7 +18,7 @@ const Home = () => {
     <div className="home">
       <Slider {...sliderSettings}>
         <div>
-          <img src="/images/image1.jpg" alt="Slide 1" />
+          <img src="public/images/image1.jpg" alt="Slide 1" />
         </div>
         <div>
           <img src="/images/image2.jpg" alt="Slide 2" />
